@@ -12,6 +12,7 @@
 		CCA3CBF11E995EFF0018EA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA3CBEF1E995EFF0018EA02 /* Main.storyboard */; };
 		CCA3CBF31E995EFF0018EA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA3CBF21E995EFF0018EA02 /* Assets.xcassets */; };
 		CCA3CBF61E995F000018EA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA3CBF41E995F000018EA02 /* LaunchScreen.storyboard */; };
+		CCED1CDC1EA6881500721F51 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED1CDB1EA6881500721F51 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CCA3CBF21E995EFF0018EA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA3CBF51E995F000018EA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCA3CBF71E995F000018EA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCED1CDB1EA6881500721F51 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CCA3CBED1E995EFF0018EA02 /* ViewController.swift */,
 				CCA3CBEF1E995EFF0018EA02 /* Main.storyboard */,
+				CCED1CDB1EA6881500721F51 /* CalculatorBrain.swift */,
 				CCA3CBFD1E995FDD0018EA02 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCED1CDC1EA6881500721F51 /* CalculatorBrain.swift in Sources */,
 				CCA3CBEE1E995EFF0018EA02 /* ViewController.swift in Sources */,
 				CCA3CBEC1E995EFF0018EA02 /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +314,7 @@
 				CCA3CBFC1E995F000018EA02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
